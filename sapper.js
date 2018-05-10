@@ -1,3 +1,7 @@
+/**
+ * Лисин Сергей lisin2@yandex.ru
+ */
+
 "use strict";
 
 let sapperCSS = document.createElement("link");
