@@ -120,19 +120,13 @@ class Sapper {
 
     gameField.innerHTML = html;
 
-    this._setEvents();
-
-    return 'ok';
-  };
-
-  _setEvents () {
     let cellElements = document.getElementsByClassName('cell');
 
     for (let i = 0; i < cellElements.length; i++) {
       cellElements[i].onclick = (e) => this._clickCell(e.currentTarget.dataset.id);
       cellElements[i].oncontextmenu = (e) => this._labelCell(e.currentTarget.dataset.id);
     }
-  }
+  };
 
   _clickCell (id) {
     let cell = this.cells[id];
