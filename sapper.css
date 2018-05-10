@@ -1,0 +1,25 @@
+#sapper{
+    margin: 0 auto;
+    display: block;
+    width: 320px;
+    height: 320px;
+    border: 1px solid #000;
+}
+.cell{
+    cursor: pointer;
+}
+.cell-rect{
+    stroke: #000;
+    fill: #cccccc;
+}
+.cell-close{
+    stroke: #000;
+    fill: #d5fff1;
+}
+.cell-mine{
+    stroke: #000;
+    fill: red;
+}
+.cell-text{
+    font-size: 15px;
+}
